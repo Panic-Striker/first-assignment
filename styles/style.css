@@ -162,4 +162,80 @@ font-weight: 700;
 margin-top: 20px;
 }
   /* fourth section ends here */
+  /* fifth section starts here */
+.fifth-section{
+    background-image: url("../assets/handshake.jpg");
+    background-repeat: no-repeat;
+    width: 1500px;
+height: 400px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 64px 48px 64px 48px;
+border-radius: 16px 16px 16px 16px;
+background-color: rgba(0,0,0,0.5);
+background-blend-mode: overlay;
+margin:50px 48px 50px 48px ;
+}
+.sub-six{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 700;
+}
+.sub-description{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+}
+.form{
+    display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+padding: 8px;
+box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 8px;
+background: rgb(255, 255, 255);
+margin: 0px 16px;
+}
+.last-part{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+
+}
+.last-part button{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 17px 20px 17px 20px;
+border-radius: 8px;
+background: rgb(255, 255, 255);
+}
+
+  /* fifth section ends here */
    
+/* footer starts here */
+.footer{
+    display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: flex-start;
+padding: 32px 150px 32px 150px;
+
+}
