@@ -41,7 +41,10 @@ align-items: center;
 padding: 21px 24px 21px 24px;
 margin: 32px 560px 91px 750px;
 border-radius: 8px;
-
+color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 20px;
+font-weight: 600;
 background: rgb(13, 19, 33);
 }
 /* first section done */
@@ -53,8 +56,9 @@ background: rgb(13, 19, 33);
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    margin: 80px 97px 80px 97px;;
+   
 }
+
 .part-one{
     padding: 50px 200px 50px 200px;
     display: flex;
@@ -81,4 +85,30 @@ background: rgb(13, 19, 33);
     opacity: 0.7;
     
 }
+   /* second section done */
+
+   /* third section starts here */
+  .sub-four{
+    display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+padding: 0px;
+margin: 48px 0px;
+  }
+  span{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  
+  }
+  .video{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+   margin: 32px;
+  }
+  
    
